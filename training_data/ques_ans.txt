@@ -1,0 +1,30 @@
+What is AWX?
+The AWX Project -- AWX for short -- is an open source community project, sponsored by Red Hat, that enables users to better control their Ansible project use in IT environments. AWX is the upstream project from which the Red Hat Ansible Tower offering is ultimately derived. For more info on Ansible Tower, read here.
+Why is Red Hat doing this?
+Because this is what Red Hat does.When Ansible, Inc. was acquired by Red Hat, we told our users that we would open the source code for Ansible Tower. The AWX Project is a fulfillment of that intent.Even more importantly, the Ansible team, like all of Red Hat, believes deeply in the power of community-driven innovation. The Ansible project itself has almost 3,000 contributors, and we believe will continue to grow and expand. Many of the critical features we now provide for users and customers were built almost entirely by the Ansible community. We believe that the open source model can also bring many innovations to the AWX Project.
+What’s the difference between AWX and Ansible Tower?
+AWX is designed to be a frequently released, fast-moving project where all new development happens.Ansible Tower is produced by taking selected releases of AWX, hardening them for long-term supportability, and making them available to customers as the Ansible Tower offering. This is a tested and trusted method of software development for Red Hat, which follows a similar model to Fedora and Red Hat Enterprise Linux.
+Where can I find support for AWX?
+The community can help answer questions about AWX via IRC and the AWX mailing list. Because AWX is designed to be a rapidly moving project, Red Hat does not provide any paid support for it. For a fully supported automation management platform, please read more about Ansible Tower here.
+Can I upgrade from one version of AWX to another?
+Direct in-place upgrades between AWX versions are not supported. It is possible to migrate data between different versions of AWX using the tower-cli tool. To migrate between different instances of AWX, please follow the instructions at https://github.com/ansible/awx/blob/devel/DATA_MIGRATION.md.
+Under which open source license is AWX available?
+The AWX source code is available under the Apache License 2.0.
+How can I get involved with the AWX Project?
+The AWX Project is hosted at GitHub. We welcome community contributions. Read the contributor guide here.
+How often is AWX released?
+The AWX team currently plans to release new builds approximately every two weeks. The AWX team will flag certain builds as stable at their discretion. Note that the term stable does not imply fitness for production usage or any kind of warranty whatsoever.
+Where do I report an AWX bug?
+The AWX Project uses GitHub for its issue tracking. You can file your issue here.
+What is the governance structure of the AWX Project?
+For now, the AWX team will continue to make all decisions for the AWX Project. Over time, we will evaluate our governance structure, and we will do our best to choose a structure that balance community needs with product needs.
+If my software runs with AWX, can I say that it is certified to run on AWX, or Tower?
+No. Only Red Hat has the ability to say that software is certified, although you may truthfully use the AWX name to describe the relationship between your software and AWX. For more details, consult the AWX Trademark Guidelines.
+I want to build my own forked version of AWX. Can I call it AWX? Can I call it Tower?
+No. You may fork AWX like any open source codebase, but you may not use Red Hat trademarks. Red Hat reserves the exclusive right to decide what products can bear those marks. Be sure to read the AWX trademark guidelines for more information.
+Will contributions to AWX require a Contributor License Agreement?
+No. However, all contributions to AWX will require agreement with the Developer Certificate of Origin (DCO) at time of submission. The text of the DCO can be read in full at developercertificate.org.
+Does Red Hat recommend AWX for production environments?
+No
+Does Red Hat’s Open Source Assurance Program apply to AWX?
+No
